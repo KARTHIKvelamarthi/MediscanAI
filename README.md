@@ -1,7 +1,7 @@
 # MediScanAI
 
 MediScanAI is an AI-powered healthcare assistant that helps users analyze symptoms and validate medicines from pill/package images.  
-It combines symptom-based disease retrieval, OCR-based medicine name extraction, medicine-use matching, voice input support, and LLM-generated explanations in one modular pipeline. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+It combines symptom-based disease retrieval, OCR-based medicine name extraction, medicine-use matching, voice input support, and LLM-generated explanations in one modular pipeline.
 
 ---
 
@@ -14,7 +14,7 @@ It combines symptom-based disease retrieval, OCR-based medicine name extraction,
 - Supports spoken symptom input through Whisper-based transcription
 - Uses an Ollama-powered LLM to generate readable medical guidance
 - Modular backend design for OCR, retrieval, embeddings, prompting, formatting, and speech input
-- Streamlit-based frontend for simple interaction and testing :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+- Streamlit-based frontend for simple interaction and testing.
 
 ---
 
@@ -30,7 +30,7 @@ The main goal of MediScanAI is to assist users in two ways:
    - If symptoms were already provided, the system checks whether the detected medicine is appropriate for the likely condition.
    - If symptoms are not provided, the system returns the likely diseases/conditions that the detected medicine can be used for.
 
-The final response is generated in a more user-friendly way using a local LLM through Ollama. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}
+The final response is generated in a more user-friendly way using a local LLM through Ollama.
 
 ---
 
@@ -61,7 +61,7 @@ The pipeline follows these steps:
    - The LLM generates the final explanation, alternatives, and warnings
 
 6. **Frontend display**
-   - Results are shown through a Streamlit interface in a structured form :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}
+   - Results are shown through a Streamlit interface in a structured form.
 
 ---
 
@@ -84,7 +84,7 @@ The pipeline follows these steps:
 - RapidFuzz
 - NumPy
 - Matplotlib
-- python-dotenv :contentReference[oaicite:8]{index=8}
+- python-dotenv
 
 ---
 
